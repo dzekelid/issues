@@ -28,7 +28,7 @@ apis:
   tags: Issues
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery/issues/master/_listings/datagov/issues-id-post.md
+    url: https://raw.githubusercontent.com/streamdata-gallery/issues/master/_listings/datagov/me-org-issues-get.md
 x-common:
 - type: x-blog
   url: https://www.data.gov/meta/
