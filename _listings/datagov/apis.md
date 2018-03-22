@@ -28,7 +28,7 @@ apis:
   tags: Issues
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/issues/master/_listings/datagov/issues-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/issues/master/_listings/datagov/issues-post.md
 x-common:
 - type: x-blog
   url: https://www.data.gov/meta/
