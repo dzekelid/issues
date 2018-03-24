@@ -40,7 +40,7 @@ apis:
   tags: Issues
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/issues/master/_listings/github/legacy-issues-search-owner-repository-state-keyword-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/issues/master/_listings/github/orgs-org-issues-get.md
 x-common:
 - type: x-net-library
   url: https://github.com/octokit/octokit.net
