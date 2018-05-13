@@ -26,19 +26,17 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/issues/master/_listings/bitbucket/repositories-username-repo-slug-issues-issue-id-watch-put.md
-- name: Bitbucket Get Repositories Username Repo Slug Issues Issue  Watch
-  description: |-
-    Indicated whether or not the authenticated user is watching this
-    issue.
+- name: Bitbucket Parameters Repositories Username Repo Slug Issues Issue  Watch
+  description: Parameters repositories username repo slug issues issue  watch
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/bitbucket-logo.png
   humanURL: https://bitbucket.org/
   baseURL: https://api.bitbucket.org//2.0
   tags: Issues
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/issues/master/_listings/bitbucket/repositories-username-repo-slug-issues-issue-id-watch-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/issues/master/_listings/bitbucket/repositories-username-repo-slug-issues-issue-id-watch-parameters.md
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/issues/master/_listings/bitbucket/repositories-username-repo-slug-issues-issue-id-watch-get-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/issues/master/_listings/bitbucket/repositories-username-repo-slug-issues-issue-id-watch-parameters-postman.md
 x-common:
 - type: x-developer
   url: https://developer.atlassian.com/cloud/bitbucket/
