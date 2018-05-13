@@ -1,8 +1,9 @@
 ---
 swagger: "2.0"
 info:
-  title: Dyn
+  title: Dyn Retrieve Count of Email Issues
   version: 1.0.0
+  description: Retrieving a total count of Email issues
 schemes:
 - http
 produces:
