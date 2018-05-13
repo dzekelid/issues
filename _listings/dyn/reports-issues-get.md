@@ -1,8 +1,9 @@
 ---
 swagger: "2.0"
 info:
-  title: Dyn
+  title: Dyn Retrieve Email Issues
   version: 1.0.0
+  description: Retrieve Email Issues
 schemes:
 - http
 produces:
