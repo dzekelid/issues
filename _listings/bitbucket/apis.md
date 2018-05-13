@@ -26,22 +26,19 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/issues/master/_listings/bitbucket/repositories-username-repo-slug-issues-issue-id-watch-put.md
-- name: Bitbucket Add Repositories Username Repo Slug Issues
+- name: Bitbucket Delete Repositories Username Repo Slug Issues Issue
   description: |-
-    Creates a new issue.
-
-    This call requires authentication. Private repositories or private
-    issue trackers require the caller to authenticate with an account that
-    has appropriate authorisation.
-
-    The authenticated user is used for the issue's `reporter` field.
+    Deletes the specified issue. This requires write access to the
+    repository.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/bitbucket-logo.png
   humanURL: https://bitbucket.org/
   baseURL: https://api.bitbucket.org//2.0
   tags: Issues
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/issues/master/_listings/bitbucket/repositories-username-repo-slug-issues-post.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/issues/master/_listings/bitbucket/repositories-username-repo-slug-issues-issue-id-delete.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/issues/master/_listings/bitbucket/repositories-username-repo-slug-issues-issue-id-delete-postman.md
 x-common:
 - type: x-developer
   url: https://developer.atlassian.com/cloud/bitbucket/
