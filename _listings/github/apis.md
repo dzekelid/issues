@@ -41,15 +41,17 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/issues/master/_listings/github/repos-owner-repo-issues-comments-get.md
-- name: Github Add Repos Owner Repo Issues Number Comments
-  description: Create a comment.
+- name: Github Get Repos Owner Repo Issues Number Events
+  description: List events for an issue.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/github-logo.png
   humanURL: https://github.com
   baseURL: https://api.github.com//
   tags: Issues
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/issues/master/_listings/github/repos-owner-repo-issues-number-comments-post.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/issues/master/_listings/github/repos-owner-repo-issues-number-events-get.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/issues/master/_listings/github/repos-owner-repo-issues-number-events-get-postman.md
 x-common:
 - type: x-net-library
   url: https://github.com/octokit/octokit.net
