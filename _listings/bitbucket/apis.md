@@ -26,17 +26,21 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/issues/master/_listings/bitbucket/repositories-username-repo-slug-issues-issue-id-watch-put.md
-- name: Bitbucket Parameters Repositories Username Repo Slug Issues Issue  Watch
-  description: Parameters repositories username repo slug issues issue  watch
+- name: Bitbucket Update Repositories Username Repo Slug Issues Issue  Watch
+  description: |-
+    Start watching this issue.
+
+    To start watching this issue, do an empty PUT. The 204 status code
+    indicates that the operation was successful.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/bitbucket-logo.png
   humanURL: https://bitbucket.org/
   baseURL: https://api.bitbucket.org//2.0
   tags: Issues
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/issues/master/_listings/bitbucket/repositories-username-repo-slug-issues-issue-id-watch-parameters.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/issues/master/_listings/bitbucket/repositories-username-repo-slug-issues-issue-id-watch-put.md
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/issues/master/_listings/bitbucket/repositories-username-repo-slug-issues-issue-id-watch-parameters-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/issues/master/_listings/bitbucket/repositories-username-repo-slug-issues-issue-id-watch-put-postman.md
 x-common:
 - type: x-developer
   url: https://developer.atlassian.com/cloud/bitbucket/
