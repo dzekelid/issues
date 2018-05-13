@@ -41,18 +41,20 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/issues/master/_listings/github/repos-owner-repo-issues-comments-get.md
-- name: Github Get Search Issues
-  description: Find issues by state and keyword. (This method returns up to 100 results
-    per page.)
+- name: Github Get User Issues
+  description: |-
+    List issues.
+    List all issues across owned and member repositories for the authenticated
+    user.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/github-logo.png
   humanURL: https://github.com
   baseURL: https://api.github.com//
   tags: Issues
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/issues/master/_listings/github/search-issues-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/issues/master/_listings/github/user-issues-get.md
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/issues/master/_listings/github/search-issues-get-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/issues/master/_listings/github/user-issues-get-postman.md
 x-common:
 - type: x-net-library
   url: https://github.com/octokit/octokit.net
