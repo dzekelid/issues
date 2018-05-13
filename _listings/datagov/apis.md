@@ -29,15 +29,17 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/issues/master/_listings/datagov/organizations-org-issues-get.md
-- name: Data.gov API Add Issues
-  description: Create a new Issue
+- name: Data.gov API Get Issues
+  description: Get an issue given its ID
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/data-gov-logo.png
   humanURL: http://data.gov/
   baseURL: https://catalog.data.gov//api/3/
   tags: Issues
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/issues/master/_listings/datagov/issues-post.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/issues/master/_listings/datagov/issues-id-get.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/issues/master/_listings/datagov/issues-id-get-postman.md
 x-common:
 - type: x-blog
   url: https://www.data.gov/meta/
