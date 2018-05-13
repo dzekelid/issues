@@ -31,15 +31,15 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/issues/master/_listings/dyn/reports-issues-count-get.md
-- name: Dyn Retrieve Email Issues
-  description: Retrieve Email Issues
+- name: Dyn Retrieve Count of Email Issues
+  description: Retrieving a total count of Email issues
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/dyn-logo.png
   humanURL: http://dyn.com/
   baseURL: https://{host}//
   tags: Issues
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/issues/master/_listings/dyn/reports-issues-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/issues/master/_listings/dyn/reports-issues-count-get.md
 x-common:
 - type: x-base
   url: https://api.dynect.net
