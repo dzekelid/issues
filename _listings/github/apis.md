@@ -41,17 +41,18 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/issues/master/_listings/github/repos-owner-repo-issues-comments-get.md
-- name: Github Delete Repos Owner Repo Issues Number Labels Name
-  description: Remove a label from an issue.
+- name: Github Get Search Issues
+  description: Find issues by state and keyword. (This method returns up to 100 results
+    per page.)
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/github-logo.png
   humanURL: https://github.com
   baseURL: https://api.github.com//
   tags: Issues
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/issues/master/_listings/github/repos-owner-repo-issues-number-labels-name-delete.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/issues/master/_listings/github/search-issues-get.md
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/issues/master/_listings/github/repos-owner-repo-issues-number-labels-name-delete-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/issues/master/_listings/github/search-issues-get-postman.md
 x-common:
 - type: x-net-library
   url: https://github.com/octokit/octokit.net
