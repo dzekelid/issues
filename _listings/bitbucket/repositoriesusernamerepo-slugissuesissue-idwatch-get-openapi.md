@@ -475,6 +475,48 @@ paths:
       - Issue
       - ""
       - Watch
+    parameters:
+      summary: Parameters Repositories Username Repo Slug Issues Issue  Watch
+      description: Parameters repositories username repo slug issues issue  watch
+      operationId: parametersRepositoriesUsernameRepoSlugIssuesIssueWatch
+      x-api-path-slug: repositoriesusernamerepo-slugissuesissue-idwatch-parameters
+      responses:
+        200:
+          description: OK
+      tags:
+      - Repositories
+      - Username
+      - Repo
+      - Slug
+      - Issues
+      - Issue
+      - ""
+      - Watch
+    put:
+      summary: Update Repositories Username Repo Slug Issues Issue  Watch
+      description: |-
+        Start watching this issue.
+
+        To start watching this issue, do an empty PUT. The 204 status code
+        indicates that the operation was successful.
+      operationId: putRepositoriesUsernameRepoSlugIssuesIssueWatch
+      x-api-path-slug: repositoriesusernamerepo-slugissuesissue-idwatch-put
+      parameters:
+      - in: path
+        name: issue_id
+        description: The issues id
+      responses:
+        200:
+          description: OK
+      tags:
+      - Repositories
+      - Username
+      - Repo
+      - Slug
+      - Issues
+      - Issue
+      - ""
+      - Watch
 x-streamrank:
   polling_total_time_average: 0
   polling_size_download_average: 0
